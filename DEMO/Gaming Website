@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+/* Style the form */
+form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Style the input fields */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Style the buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Add a header for the form */
+h1 {
+  text-align: center;
+  color: white;
+}
+
+/* Add a footer for the form */
+p {
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Gaming Website</h1>
+
+<form action="/action_page.php" method="post">
+  <div class="container">
+    <h2>Register</h2>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <button type="submit">Register</button>
+  </div>
+</form>
+
+<form action="/action_page.php" method="post">
+  <div class="container">
+    <h2>Login</h2>
+    <p>Please enter your username and password to login.</p>
+    <hr>
+
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+  </div>
+</form>
+
+<p>Created by Bing using HTML and CSS</p>
+
+</body>
+</html>
